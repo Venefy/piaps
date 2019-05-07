@@ -1,0 +1,7 @@
+user@c3af7038ee76:/projects$ cd piaps1/piaps1demo/
+user@c3af7038ee76:/projects/piaps1/piaps1demo$ gcc -c Main.cpp
+user@c3af7038ee76:/projects/piaps1/piaps1demo$ chmod u+x Main.cpp
+user@c3af7038ee76:/projects/piaps1/piaps1demo$ ./Main.cpp
+
+g++ -std=c++0x *.cpp -o output
+./output

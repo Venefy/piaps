@@ -8,6 +8,6 @@ int main()
 	BoardAnyCar* BB = dir.createBoard(bus_builder, 5, 3, 2);
 	std::cout << std::endl;
 	BoardAnyCar* BT = dir.createBoard(taxi_builder, 2, 1);
-	system("pause");
+	//system("pause");
 	return 0;
 }

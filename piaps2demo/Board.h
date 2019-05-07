@@ -18,7 +18,7 @@ public:
 		if(!driver)
 			delete driver;
 		passengers.clear();
-		passengers.shrink_to_fit();
+		//passengers.shrink_to_fit();
 	}
 	bool isReady()
 	{
